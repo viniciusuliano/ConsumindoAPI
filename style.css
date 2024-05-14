@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 20px 30px;
+    align-items: center;
+    justify-content: center;
+    max-width: 450px;
+}
+
+ul img{
+    max-width: 450px;
+    height: 250px;
+    margin-bottom: 20px;
+
+}
